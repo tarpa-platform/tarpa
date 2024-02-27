@@ -1,0 +1,7 @@
+# Contributors by commit history
+https://github.com/tarpa-platform/tarpa/graphs/contributors
+
+# Contributions by scientific involvement
+James M Geiger <james@lavande.in>: Development, design, conceptualization
+Michelle M Perfect <mperfect@arizona.edu>: Conceptualization
+Maria V Mullins <mullins1@arizona.edu>: User acceptance testing, design feedback
