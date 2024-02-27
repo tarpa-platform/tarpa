@@ -1,66 +1,44 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# TARPA
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+**T**eam **A**ccountability and **R**easerch **P**articipant **A**dministration
 
-## About Laravel
+## About
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+The TARPA application is designed to fit the needs of small- to medium-size research teams working with human subject designs, especially in research areas without the need for collecting PHI or other controlled data.  The platform was initially built by researchers and project coordinators with research backgrounds in psychological, socio-emotional, and behavioral research areas.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## Functionality
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+The TARPA suite of tools includes:
 
-## Learning Laravel
+- A study calendar,
+- Participant information management,
+- Team member tasks,
+- Checks for consistency at defined points,
+- Tools for longitudinal studies,
+- Advanced templates for events and tasks at defined points,
+- Participant timeline and portal, and
+- Granular role- and user-based access rights and permissions.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## Motivation
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+*Or, "Why not use [this other program]?"*
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+As researchers, we explored using many different project management and data collection platforms.  Because none of these were designed specifically with research management in mind, many fell short.  It felt like we'd need to use many different applications across different platforms which would have led to a disjoint, disorganized, and ineffective solution.  TARPA was designed to bridge the gaps between different project management tools with an emphasis on making participant management as smooth as possible, especially for studies with detailed protocols or longitudinal designs.
 
-## Laravel Sponsors
+## Technology & Development
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+TARPA is built using the [Laravel Framework](https://www.laravel.com) for the server backend, [Vue.js](https://www.vuejs.org) and the [Tailwind CSS](https://tailwindcss.com) frameworks for the user-facing frontend, and MySQL (or variants) for data persistence.
 
-### Premium Partners
+### Getting Started
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+Detailed developer information coming soon.
 
-## Contributing
+### Contributing
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+Please reach out to [the maintainers](mailto:hello@lavande.in) to inquire about contributing to the project.
 
-## Code of Conduct
+## Acknowledgement
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+The TARPA suite of tools was funded in part by a grant from the National Institutes of Health (5R01DK110528).
 
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+A listing of contributors is available in CONTRIBUTORS.TXT.
